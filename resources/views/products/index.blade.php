@@ -2,7 +2,6 @@
 
 @section('content')
 
-<!-- Top Filter Bar -->
 <div class="filter-bar d-flex align-items-center mb-4">
     <a href="#" class="active">All Products</a>
     <a href="#">Bamboo</a>
@@ -14,7 +13,7 @@
     </div>
 </div>
 
-<!-- Product Grid -->
+
 <div class="row">
     @if(count($products) > 0)
         @foreach($products as $product)
